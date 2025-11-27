@@ -1,4 +1,4 @@
-# Manara_final-_Project-AWS_SAA
+# Manara_final_Project-AWS_SAA
 Scalable Web Application with ALB and Auto Scaling
 Project Overview
 This architecture outlines the integration of various AWS services to design a resilient, scalable, and secure web application hosting environment. Leveraging AWS not only optimizes performance but also ensures a high degree of reliability and security for web applications.
@@ -7,7 +7,7 @@ Solution Architecture Diagram
 This diagram visualizes the complete setup: a multi-tier architecture across 2 Availability Zones, public and private subnets, ALB, ASGs, NAT Gateways, RDS, and monitoring services.
 
 
-Architecture:
+#Architecture:
 
 1. DNS services with Amazon Route 53: Beyond domain management, Route 53 ensures a smooth domain name system service with health checks, traffic flow, and domain registration capabilities. This ensures users can access your web application reliably.
 2. AWS WAF: AWS WAF doesn’t just filter out malicious traffic and offers real-time metrics and logging to ensure visibility into attack patterns.
@@ -26,7 +26,7 @@ Architecture:
 15. Amazon VPC – Isolated network with subnets and routing
 
 
-    Deployment Setup
+   # Deployment Setup
 1. VPC & Subnets
 Create a custom VPC with CIDR (e.g., 172.16.0.0/16)
 Create 2 public subnets and 4 private subnets across 2 Availability Zones

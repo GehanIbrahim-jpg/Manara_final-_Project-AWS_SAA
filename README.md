@@ -7,7 +7,7 @@ Solution Architecture Diagram
 This diagram visualizes the complete setup: a multi-tier architecture across 2 Availability Zones, public and private subnets, ALB, ASGs, NAT Gateways, RDS, and monitoring services.
 
 
-#Architecture:
+  # Architecture:
 
 1. DNS services with Amazon Route 53: Beyond domain management, Route 53 ensures a smooth domain name system service with health checks, traffic flow, and domain registration capabilities. This ensures users can access your web application reliably.
 2. AWS WAF: AWS WAF doesn’t just filter out malicious traffic and offers real-time metrics and logging to ensure visibility into attack patterns.

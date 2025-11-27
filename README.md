@@ -1,6 +1,7 @@
 # Manara_final_Project-AWS_SAA
 Scalable Web Application with ALB and Auto Scaling
-Project Overview
+
+ # Project Overview
 This architecture outlines the integration of various AWS services to design a resilient, scalable, and secure web application hosting environment. Leveraging AWS not only optimizes performance but also ensures a high degree of reliability and security for web applications.
 Solution Architecture Diagram
 <img width="3969" height="3640" alt="Blank diagram" src="https://github.com/user-attachments/assets/f9a90f3f-5cb2-4cdc-bf20-1f7543afeb3c" />
